@@ -19,13 +19,13 @@ new CdkPipelineStack(app, 'CdkPipelineStack', {
 
   /* For more information, see https://docs.aws.amazon.com/cdk/latest/guide/environments.html */
 
-	const app = cdk.App()
-	new CdkPipelineStack(app, 'CDKPipelineStack', {
 		env: {
 			account: '742383987475',
 			regions: 'us-east-1'
 		}
-	})
 
-	app.synth()
+
 });
+
+app.synth()
+
