@@ -21,7 +21,7 @@ new CdkPipelineStack(app, 'CdkPipelineStack', {
 
 		env: {
 			account: '742383987475',
-			regions: 'us-east-1'
+			region: 'us-east-1'
 		}
 
 
